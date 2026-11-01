@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tile Counter for TileLord",
+  "short_name": "TileLord Counter",
+  "version": "1.0.0",
+  "description": "See every tile left in the deck while you play TileLord.com, the free online Carcassonne-style game.",
+  "homepage_url": "https://github.com/Erol444/tilelord-tile-counter",
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://tilelord.com/*", "https://www.tilelord.com/*"],
+      "js": ["data.js", "counter.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
+}
