@@ -29,7 +29,7 @@ Tile multiplier (×2, ×3) is supported. Phantom and Abbot add no tiles.
 
 ## Install
 
-- [Chrome Web Store](https://chromewebstore.google.com/) (link coming soon)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/tile-counter-for-tilelord/amegfghiinhohplgfmgpnkenodmgfgjo)
 - From source: clone this repo, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and pick this folder.
 
 ## How it works
